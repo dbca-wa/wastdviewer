@@ -13,9 +13,27 @@ Imports:
     config (>= 0.3),
     golem (>= 0.2.1.9031),
     shiny (>= 1.5.0),
-    wastdr (>= 0.3.4)
+    wastdr (>= 0.3.4),
+    processx,
+    attempt,
+    DT,
+    glue,
+    htmltools,
+    bs4Dash,
+    fs,
+    dplyr,
+    here,
+    leaflet,
+    leaftime,
+    reactable,
+    waiter
 Remotes:
     github::dbca-wa/wastdr
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.1
+Suggests: 
+    testthat,
+    spelling,
+    covr
+Language: en-US
